@@ -8,3 +8,5 @@ La esencia del juego es adivinar una palabra oculta de 5 letras en un máximo de
  
 ' ' La letra no esta en la plabra  
 
+Esta escrito en Python, el programa fucniona, pero falta una interfaz grafica
+
