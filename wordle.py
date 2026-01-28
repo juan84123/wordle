@@ -28,7 +28,7 @@ while intentos < 6: #se encarga de que el juego termine despues de la cantidad d
     print(f"te quedan {6 - intentos} intentos")
     intentos = intentos + 1 #cada intento disminuye 1 
     palabra_ingresada = input("Ingrese una palabra: ")
-    print(f"la palabra ingresada es: {palabra_ingresada}")
+    print(f"La palabra ingresada es: {palabra_ingresada}")
     print(verificador_palabra(palabra_ingresada, palabra_secreta)) #llama a la funcion que hace la corroboracion de letras en la palabra secreta
     letra_veri_final_juego = verificador_palabra(palabra_ingresada, palabra_secreta) # guarda la palabra para compararlo con la palabra secreta
     if letra_veri_final_juego == aux: #hace la comparacion y si se True, termina el juego
